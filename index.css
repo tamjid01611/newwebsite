@@ -128,8 +128,81 @@ body {
 .photos img {
     width: 380px;
     margin-left: 40px;
+    transition: 0.2s;
+}
+
+.photos img:hover {
+    transform: scale(1.1);
 }
 
 .photos .img1 {
     margin-left: 60px;
+}
+
+.sec4 {
+    background-image: url("imeges/footer-bg.png");
+    height: 100vh;
+    background-size: 1200px;
+}
+
+.contant4 h1 {
+    font-family: arial;
+    letter-spacing: 1px;
+    color: #292929;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contant4 h4 {
+    font-size: 22px;
+    font-family: arial;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 61px;
+}
+
+.contant4 h5 {
+    text-align: center;
+    font-family: arial;
+    color: dimgray;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: -15px;
+}
+
+.contant4 h6 {
+    width: 421px;
+    font-family: arial;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 547px;
+    font-size: 14px;
+}
+
+.contant4 button {
+    background-image: linear-gradient(90deg, #e96687, #ec1148);
+    height: 90px;
+    width: 350px;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 583px;
+    margin-top: 37px;
+    transition: 0.2s;
+}
+
+.contant4 button:hover {
+    transform: scale(1.1);
+}
+
+.contant4 button p {
+    color: white;
+}
+
+.contant4 button a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
 }
